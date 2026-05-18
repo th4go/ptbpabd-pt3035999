@@ -28,7 +28,6 @@ EXEC student_grade_points @conceito = 'C'; -- teste da procedure
 
 -- questão 2
 
-GO
 CREATE FUNCTION return_instructor_location (@instructor_name VARCHAR(50))
 RETURNS TABLE
 AS
